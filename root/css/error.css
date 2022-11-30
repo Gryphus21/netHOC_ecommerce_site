@@ -1,0 +1,15 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css'); /* Icone */
+
+h3.main_titles {
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar_links li a {
+    margin-right: 610px;
+}
+
+/*OVERRIDE*/
+.footer {
+    margin-top: 233px !important;
+}

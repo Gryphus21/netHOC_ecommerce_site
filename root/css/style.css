@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500'); /* Font */
+@import url('https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css'); /* Cuore */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2a2424;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+a {
+    font-size: 16px; 
+    color: #EDF0F1;
+    text-decoration: none;
+
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    color: #0088A9;
+}
+
+
+.body_content {
+    color: rgb(148, 142, 142);
+}
+
+/*----------------------------------------------*/
+
+/*  
+    ##      Colori      ##
+
+    sfondo = 2a2424
+
+    net (blu) = 004e6c
+    HOC (grigio) = 403e3f
+    
+    testo rilevante = 0090b4
+    testo normale = 2a2424
+
+    bottone = 0090b4
+    bottone:hover = 004E6C
+
+    raggruppamento = 403A3A
+*/
+
+/*----------------------------------------------*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /*Imposta degli spazi tra i 3 elementi dentro header (img - nav - a)*/
+    align-items: center;
+
+    padding: 0px 100px; /*Top right*/
+}
+
+.navbar img {
+    /*background-color: red;*/
+    
+    max-width: 200px;
+    max-height: 100px;
+
+    /*transition: 0.3s;*/
+}
+
+.navbar img:hover {
+    /*border: 2px solid #0090b4;*/
+    border-radius: 1rem;
+}
+
+/*LISTA SCELTE NAVBAR*/
+.navbar_links {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*----------------------------------------------*/
+
+/*TITOLO PRIMARIO*/
+h1.main_titles { 
+    text-align: center;
+    color: #0090b4;
+    font-size: 35px;
+    margin-top: 50px; 
+}
+
+/*TITOLO SECONDARIO*/
+h2.main_titles {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px; 
+}
+
+/*----------------------------------------------*/
+
+/*TITOLI PER LE SEZIONI*/
+.section h3 {
+    /*background-color: rebeccapurple;*/
+
+    text-align: center;
+    color: #0090b4;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.section p:not(.p_service) {
+    /*background-color: red;*/
+
+    line-height: 1.5;
+    text-align: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+/*----------------------------------------------*/
+
+/*LINEE*/
+.line {
+    height: 3px;
+    width: 50%;
+
+    background-color: rgba(128, 128, 128, 0.3);
+    margin: 130px auto 130px auto; /*top right bottom left*/
+}
+
+.header .line {
+    height: 1px;
+    width: 100%;
+
+    background-color: rgba(128, 128, 128, 0.3);
+
+    margin-top: 2px;
+    margin-bottom: 150px;
+}
+
+/*----------------------------------------------*/
+
+/*BOTTONI*/
+.button {
+    font-size: 16px;
+    text-decoration: none;
+    color: #EDF0F1;
+    background-color: #0090b4;  
+    
+    padding: 9px 25px;
+    
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: #004E6C;
+}
+
+.fixed {
+    font-size: 30px;
+
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    padding: 1rem;
+}
+
+/*----------------------------------------------*/
+
+/*PIEDI DELLA PAGINA*/
+.footer {
+    background-color: #403e3f;
+    
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer span {
+    color: #fff;
+}
+
+.footer a {
+    font-size: 16px; 
+    color: #380403;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.footer a:hover {
+    color: #821318;
+    background-color: #F2C59D;
+    transition: all 0.3s ease 0s;
+}
+
+.footer .mdi-heart {
+    color: red;
+}

@@ -1,0 +1,149 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css'); /* Icone */
+
+/*GRUPPO DELLE CARDS*/
+.card_deck {
+    /*background-color: red;*/
+    width: 90%;
+    /*text-align: center;*/
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 5%;
+}
+
+/*GRUPPO TESTO/TITOLO/BOTTONE DENTRO LA CARD*/
+.card_body { 
+    /*background-color: blue;*/
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.card {
+    background-color: #403A3A;
+    border-radius: 1rem;
+    
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    
+    margin: 5% 5% 5% 5%; /*top right bottom left*/
+    padding-left: 20px;
+}
+
+.card h3 {
+    color: #0090b4;
+    margin-top: 10%;
+    /*background-color: red;*/
+}
+
+.card p {
+    color: rgb(148, 142, 142);
+}
+
+.card img {
+    width: 270px;
+    height: 200px;
+    
+    border-radius: 2%;
+    border: 2px solid #0090b4;
+
+    /*background-color: red;*/
+}
+
+.card h4 {
+    color: #000000;
+
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.card ul {
+    /*background-color: red;*/
+    list-style: none;
+}
+
+.card li::before {
+    content: "\2022";
+    color: #0090b4;
+  
+    font-weight: bold;
+    display: inline-block; 
+  
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+
+
+
+
+.tot_price span {
+    color: rgb(238, 255, 0);
+    font-size: 27px;
+}
+
+
+
+
+.alert_icon {
+    color: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext { /*Riquadro*/
+    visibility: hidden;
+
+    width: 120px;
+
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after { /*Freccia verticale*/
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    margin-left: -5px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+.footer {
+    margin-top: 150px !important;
+}

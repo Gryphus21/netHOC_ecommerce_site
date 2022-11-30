@@ -1,0 +1,104 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css'); /* Icone */
+
+/*MAPPA*/
+.sec_dove_siamo iframe { 
+    margin: 0 auto;
+    background-color: #403e3f;
+    display: block;
+    border-radius: 2%;
+    border: 2px solid #0090b4;
+}
+
+
+/*GRUPPO DI ICONE*/
+.icon_group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 19%; /*Top right*/
+    margin-top: 60px;
+}
+
+.icon_group img {
+    width: 100px;
+    height: 100px;
+
+    background-color: rgb(137, 228, 255);
+    border-radius: 100%;
+    border: 2px solid #0090b4;
+}
+
+.icon_group figcaption {
+    text-align: center;
+    margin-top: 20px;
+    color: #0090b4;
+}
+
+
+
+
+
+
+/*GRUPPO DELLE 2 CARDS*/
+.card_deck {
+    /*background-color: red;*/
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_deck a {
+    /*background-color: red;*/
+
+    font-size: 16px; 
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.card {
+    /*background-color: blue;*/
+
+    text-align: center;
+    margin: 100px auto /*100px*/ auto; /*top right bottom left*/
+    width: 600px;
+}
+
+.card h3 {
+    color: #0090b4;
+}
+
+.card p {
+    color: rgb(148, 142, 142);
+}
+
+.card img {
+    width: 530px;
+    height: 350px;
+    
+    border-radius: 2%;
+    border: 2px solid #0090b4;
+}
+
+
+
+
+
+
+
+
+/*SEZIONE CONTATTI*/
+.sec_contatti div {
+    background-color: #403A3A;
+
+    border-radius: 1rem;
+
+    margin: 100px 27% 100px 27%; /*top right bottom left*/
+    padding: 2rem;
+}
+
+.sec_contatti span.title_contatti {
+    color: #000000;
+
+    font-size: 21px;
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+}

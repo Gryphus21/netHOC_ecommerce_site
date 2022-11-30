@@ -1,0 +1,168 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css'); /* Icone */
+
+/*DIV ACCESS*/
+.div_access {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: auto 4% auto 4%; /*top right bottom left*/
+}
+
+
+h2.main_titles {
+    /*background-color: red;*/
+    
+}
+
+
+h3.disclaimer {
+    color: yellow;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+
+
+/*OVERRIDE*/
+.section {
+    background-color: #403A3A;
+    border-radius: 1rem;
+}
+
+
+
+/*OVERRIDE*/
+.navbar ul {
+    margin-right: 47%;
+}
+
+
+
+
+
+.section h4 {
+    color: black;
+}
+
+.section h3 {
+    font-size: 40px;
+    margin-top: 12%;
+}
+
+
+
+
+
+
+.form {
+    text-align: center;
+}
+
+.form input {
+    display: block;
+    box-sizing: border-box;
+
+    font-size: 17px;
+
+    width: 50%;
+    padding: 10px;
+    margin: 14px auto;
+
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
+
+/*
+.form input::-webkit-input-placeholder { /*TODO: Non funziona con Firefox
+    color: #0090b4;
+   font-size: 17px;
+}*/
+
+.form input:focus {
+    border-color: #0090b4;
+    outline: none;
+}
+
+.form label {
+    color: #000000;
+    font-weight: 600;
+}
+
+.form button {
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+
+.form label {
+    display: block !important;
+    margin-top: 20px;
+} 
+
+.form input {
+    display: inline !important;
+} 
+
+
+
+
+
+
+
+
+.alert_icon {
+    color: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext { /*Riquadro*/
+    visibility: hidden;
+
+    width: 120px;
+
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after { /*Freccia verticale*/
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    margin-left: -5px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*OVERRIDE*/
+.footer {
+    margin-top: 150px !important;
+}
